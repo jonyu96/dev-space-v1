@@ -1,0 +1,30 @@
+.Tab, .Tab-wrapper {
+  height: 25px;
+  border-radius: var(--border-radius);
+}
+  
+.Tab-wrapper {
+  background: var(--main-color);
+}
+
+.Tab {
+  border: var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: #fff;
+  transition: .2s ease; 
+  box-shadow: -2px 3px 3px #DADADA;
+  padding: .3rem .8rem;
+}
+
+.Tab:hover {
+  transform: translate(4px, -4px);
+  box-shadow: none;
+}
+
+.Tab span {
+  font-weight: 600;
+  font-size: .7rem;
+}

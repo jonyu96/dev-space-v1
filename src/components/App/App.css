@@ -1,0 +1,25 @@
+.App {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative; 
+}
+
+.App-signature {
+  position: absolute;
+  bottom: 50px;
+
+  font-size: .7rem;
+}
+
+.App-tag {
+  display: inline-block;
+  background: var(--main-color);
+  border-radius: 5px;
+  padding: 2px 10px;
+
+  color: #ffffff;
+  font-weight: 700;
+  margin-left: 2px;
+}

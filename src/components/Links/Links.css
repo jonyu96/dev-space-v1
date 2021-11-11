@@ -1,0 +1,35 @@
+.Links-list {    
+    position: absolute;
+    /* bottom: 50px; */
+    left: 40px;
+    display: flex;
+    flex-direction: column;
+
+    padding: 0;
+    margin: 0;
+}
+
+.Links-icon svg {
+    height: 20px;
+    width: 20px;
+    stroke: var(--text-color);
+}
+
+.Links-icon:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.Links-icon a {
+    display: inline-block;
+    padding: .5rem;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.Links-icon a:hover {
+    transform: translateY(-5px);
+}
+
+.Links-icon a:hover svg {
+    /* stroke: var(--main-color); */
+    fill: var(--main-color);
+}

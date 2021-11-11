@@ -1,0 +1,79 @@
+.Projects-wrapper {
+    height: 500px;
+    width: 750px;
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+}
+
+.Projects-wrapper .title-section {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#construction-icon {
+    height: 55px;
+    width: auto;
+    position: absolute;
+    right: 30%;
+}
+
+.projects-section {
+    display: grid;
+    grid-template-columns: 3.5fr 7fr;
+    column-gap: 3rem;
+}
+
+.projects-section .container-hole {
+    width: 13px;
+}
+
+.projects-wrapper {
+    border-top: var(--border);
+    position: relative;
+}
+
+.projects {
+    height: 100%;
+    width: 95%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 0;
+}
+
+.project-wrapper, .project {
+    border-radius: var(--border-radius);
+}
+
+.project-wrapper {
+    width: 45%;
+    height: 70px;
+    margin-bottom: 1rem;
+    background-color: var(--main-color);
+}
+
+.project {
+    background-color: var(--bg);
+    height: 100%;
+    width: 100%;
+    border: var(--border);
+    transition: .2s ease;
+    z-index: 10;
+    box-shadow: -2px 3px 3px #DADADA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.project svg {
+    height: 40%;
+    width: auto;
+}
+
+.project:hover {
+    transform: translate(4px, -4px);
+    box-shadow: none;
+}

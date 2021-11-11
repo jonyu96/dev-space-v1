@@ -1,0 +1,63 @@
+.Loading-wrapper {
+    position: relative;
+}
+
+.Loading-floor {
+    width: 200px;
+    border-bottom: 1.7px solid #4A4A4A;
+    position: relative;
+}
+
+.Loading-cover {
+    height: 75px;
+    width: 75px;
+
+    position: absolute;
+    left: -75px;
+    bottom: 0;
+    background: #fff;
+    z-index: 10;
+}
+
+.Loading-hole {
+    width: 7px;
+    height: 10px;
+    position: absolute;
+    right: -5px;
+    bottom: -5px;
+    background: #ffffff;
+}
+
+/* CSS alternative to Framer Motion */
+/*
+svg {
+    margin-bottom: .1rem;
+    transform: translatex(-50px) rotate(0);
+    animation: roll 1s ease-in-out forwards;
+}
+
+#left-eye, #right-eye, #smile {
+    visibility: hidden;
+    animation: smile .7s ease-in forwards; 
+    animation-delay: 1s;
+}
+
+@keyframes smile {
+    99% {
+        visibility: hidden;
+    }
+
+    100% {
+        visibility: visible;
+    }
+}
+
+@keyframes roll {
+    0% {
+        transform: translatex(-50px) rotate(0);
+    }
+
+    100% {
+        transform: translatex(70px) rotate(360deg);
+    }
+}*/
